@@ -10,6 +10,7 @@ public class FirstWebService {
 	
 	@WebMethod
 	public int add(int a, int b) {
-		return (a + b);
+		System.out.println("Result = " + (a+b+10));
+		return (a + b + 10);
 	}
 }
