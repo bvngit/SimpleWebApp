@@ -17,14 +17,14 @@ public class FirstServlet extends HttpServlet {
      * Default constructor. 
      */
     public FirstServlet() {
-        // TODO Auto-generated constructor stub
+    	System.out.println("Call FirstServlet()");
     }
 
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
 	public void init(ServletConfig config) throws ServletException {
-		// TODO Auto-generated method stub
+		System.out.println("Call init()");
 	}
 
 	/**
